@@ -1,0 +1,35 @@
+/* CSS for the magical vibe */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1616ab, #2e1fd2, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #433e6d, #302b63, #312b63); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#gameContainer {
+    position: relative;
+}
+
+canvas {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.7), 0 0 15px rgb(255, 255, 255) inset;
+    cursor: none; /* Hide the cursor over the canvas */
+}
+
+h1 {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #1c00d5, 0 0 20px #2600ff;
+}
